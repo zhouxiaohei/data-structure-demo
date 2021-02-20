@@ -1,4 +1,4 @@
-package com.zhou.demo.test;
+package com.zhou.demo.datastructure.stack;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -8,12 +8,12 @@ import java.util.Stack;
  * @Author JackZhou
  * @Date 2021/1/14  19:22
  **/
-public class QueueDemo {
+public class StackQueueDemo {
     private Stack<Integer> stackA;
     private Stack<Integer> stackB;
 
     public static void main(String[] args) {
-        QueueDemo queue = new QueueDemo();
+        StackQueueDemo queue = new StackQueueDemo();
         char key = ' '; // 接收用户输入
         Scanner scanner = new Scanner(System.in);//
         boolean loop = true;
@@ -48,7 +48,7 @@ public class QueueDemo {
         System.out.println("程序退出~~");
     }
 
-    public QueueDemo(){
+    public StackQueueDemo(){
         stackA = new Stack<Integer>();
         stackB = new Stack<Integer>();
     }

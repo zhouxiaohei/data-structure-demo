@@ -20,7 +20,6 @@ public class SingleLinkedListDemo {
         //创建要给链表
         SingleLinkedList singleLinkedList = new SingleLinkedList();
 
-
         //加入
         singleLinkedList.add(hero1);
         singleLinkedList.add(hero4);
@@ -38,36 +37,35 @@ public class SingleLinkedListDemo {
 //		System.out.println("测试逆序打印单链表, 没有改变链表的结构~~");
 //		reversePrint(singleLinkedList.getHead());
 
-/*
-		//加入按照编号的顺序
-		singleLinkedList.addByOrder(hero1);
-		singleLinkedList.addByOrder(hero4);
-		singleLinkedList.addByOrder(hero2);
-		singleLinkedList.addByOrder(hero3);
 
-		//显示一把
-		singleLinkedList.list();
-
-		//测试修改节点的代码
-		HeroNode newHeroNode = new HeroNode(2, "小卢", "玉麒麟~~");
-		singleLinkedList.update(newHeroNode);
-
-		System.out.println("修改后的链表情况~~");
-		singleLinkedList.list();
-
-		//删除一个节点
-		singleLinkedList.del(1);
-		singleLinkedList.del(4);
-		System.out.println("删除后的链表情况~~");
-		singleLinkedList.list();
-
-		//测试一下 求单链表中有效节点的个数
-		System.out.println("有效的节点个数=" + getLength(singleLinkedList.getHead()));//2
-
-		//测试一下看看是否得到了倒数第K个节点
-		HeroNode res = findLastIndexNode(singleLinkedList.getHead(), 3);
-		System.out.println("res=" + res);
-*/
+//		//加入按照编号的顺序
+//		singleLinkedList.addByOrder(hero1);
+//		singleLinkedList.addByOrder(hero4);
+//		singleLinkedList.addByOrder(hero2);
+//		singleLinkedList.addByOrder(hero3);
+//
+//		//显示一把
+//		singleLinkedList.list();
+//
+//		//测试修改节点的代码
+//		HeroNode newHeroNode = new HeroNode(2, "小卢", "玉麒麟~~");
+//		singleLinkedList.update(newHeroNode);
+//
+//		System.out.println("修改后的链表情况~~");
+//		singleLinkedList.list();
+//
+//		//删除一个节点
+//		singleLinkedList.del(1);
+//		singleLinkedList.del(4);
+//		System.out.println("删除后的链表情况~~");
+//		singleLinkedList.list();
+//
+//		//测试一下 求单链表中有效节点的个数
+//		System.out.println("有效的节点个数=" + getLength(singleLinkedList.getHead()));//2
+//
+//		//测试一下看看是否得到了倒数第K个节点
+//		HeroNode res = findLastIndexNode(singleLinkedList.getHead(), 3);
+//		System.out.println("res=" + res);
 
     }
 

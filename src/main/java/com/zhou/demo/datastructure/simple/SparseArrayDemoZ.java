@@ -11,8 +11,8 @@ package com.zhou.demo.datastructure.simple;
 public class SparseArrayDemoZ {
 
     public static void main(String[] args) {
-        toChessArr(toSparseArray(testOne()));
-        //toChessArr(toSparseArray(testTwo()));
+        //toChessArr(toSparseArray(testOne()));
+        toChessArr(toSparseArray(testTwo()));
     }
 
     public static int[][] testTwo(){

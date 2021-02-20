@@ -32,7 +32,7 @@ public class ShellSort {
     }
 
     public static void sort(int[] arr) {
-        for (int i = arr.length / 2; i > 0; i = i / 2) {
+        for (int i = arr.length / 2; i > 0; i = i / 2) {  //i是步长   例如 长度5 步长 2  1
 
             //借用插入排序  搞清楚插入排序
             for (int j = i; j < arr.length; j++) {
