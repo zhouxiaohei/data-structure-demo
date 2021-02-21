@@ -35,6 +35,7 @@ public class ArraySort {
     // 如果n1小于n2，我们就返回正值，如果n1大于n2我们就返回负值， 这样颠倒一下，就可以实现反向排序了
     public static void selfSortStrategy(){
         //TODO 对基本类型反序  Collections.reverseOrder()   不然要转换成引用类型
+        //TODO 用Arrays对基本类型排序
         int[] arrInt = {1, 3, 4, 2, 5, 2};
         //System.out.println(Arrays.sort(arrInt, Collections.reverseOrder()));
 
