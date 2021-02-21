@@ -6,6 +6,7 @@ import java.util.Arrays;
  * @ClassName KMPAlgorithm
  * @Author JackZhou
  * @Date 2020/9/17  16:48
+ *  https://blog.csdn.net/v_july_v/article/details/7041827
  **/
 public class KMPAlgorithm {
 

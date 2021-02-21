@@ -7,7 +7,8 @@ import java.util.List;
  * @ClassName PrimAlgorithm
  * @Author JackZhou
  * @Date 2020/9/24  19:29
- * @Desc  普利姆算法
+ * @Desc  普利姆算法    最小生成树、保证总里程数最短
+ *
  *    访问第一个顶点A可以到达的最短顶点N；再访问A和N可以到达的最短权值顶点
  *    持续上面的动作，一直到节点全部访问结束或者说N-1条边；
  **/

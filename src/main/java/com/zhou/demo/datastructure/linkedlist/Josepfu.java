@@ -5,13 +5,14 @@ package com.zhou.demo.datastructure.linkedlist;
  * @Author JackZhou
  * @Date 2020/4/29  15:32
  *    约瑟夫问题  约瑟夫环  丢手帕
+ *    一群小孩围成一个圈、总数sum、丢手绢N次后小孩出列、最后剩下的小孩
  **/
 public class Josepfu {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         //play(111225, 10, 13); //1037ms
-        playBreakLoop(111225, 10, 13); //跳出多个循环  1342s  超过10w 这个才快一点哦
+        playBreakLoop(11, 10, 3); //跳出多个循环  1342s  超过10w 这个才快一点哦
         System.out.println("cost:" + (System.currentTimeMillis() - start));
 
         //单向循环链表 约瑟夫  arrayList反转
